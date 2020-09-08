@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and keluar" time="69.904" tests="5" failures="0" errors="0">
+   <testsuite name="Login and keluar" tests="5" failures="0" errors="0" time="69.904" timestamp="2020-09-08 02:20:58" hostname="mbpretina-2014 - apples-mbp" id="Test Suites/evermos-mobile-suite/Login and keluar">
+      <properties>
+         <property name="deviceName" value="realme RMX2061 (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mbpretina-2014/Documents/Evermoss-Test/evermos-automation-test/Reports/20200908_022047/evermos-mobile-suite/Login and keluar/20200908_022047"/>
+         <property name="logFiles" value="/Users/mbpretina-2014/Documents/Evermoss-Test/evermos-automation-test/Reports/20200908_022047/evermos-mobile-suite/Login and keluar/20200908_022047/execution0.log, /Users/mbpretina-2014/Documents/Evermoss-Test/evermos-automation-test/Reports/20200908_022047/evermos-mobile-suite/Login and keluar/20200908_022047/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mbpretina-2014 - apples-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.18.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.18.1"/>
+         <property name="deviceModel" value="RMX2061"/>
+         <property name="hostAddress" value="192.168.43.161"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="20754a6a"/>
+         <property name="deviceName" value="realme RMX2061 (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/evermoss-mobile-app/login-evermos-uccess-case" time="25.961" classname="Test Cases/evermoss-mobile-app/login-evermos-uccess-case" status="PASSED">
+         <system-out><![CDATA[2020-09-08 02:20:59 - [TEST_CASE][PASSED] - Test Cases/evermoss-mobile-app/login-evermos-uccess-case: Test Cases/evermoss-mobile-app/login-evermos-uccess-case
+
+2020-09-08 02:21:00 - [TEST_STEP][PASSED] - startApplication(EvermosApkLoc, false): Started app at: '/Users/mbpretina-2014/Downloads/evermos.apk'
+
+2020-09-08 02:21:03 - [MESSAGE][INFO] - Appium server started on port 59,033
+
+2020-09-08 02:21:15 - [MESSAGE][PASSED] - Started app at: '/Users/mbpretina-2014/Downloads/evermos.apk'
+
+2020-09-08 02:21:15 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/Masuk Sekarang"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/Masuk Sekarang'
+
+2020-09-08 02:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/Masuk Sekarang'
+
+2020-09-08 02:21:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("evermoss-mobile-app-object/phone-number"), EvermosMobilePhone): Send keys '622525' on test object 'Object Repository/evermoss-mobile-app-object/phone-number' successfully.
+
+2020-09-08 02:21:17 - [MESSAGE][PASSED] - Send keys '622525' on test object 'Object Repository/evermoss-mobile-app-object/phone-number' successfully.
+
+2020-09-08 02:21:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("evermoss-mobile-app-object/kata-sandi"), EvermosMobilePassword): Send keys '1' on test object 'Object Repository/evermoss-mobile-app-object/kata-sandi' successfully.
+
+2020-09-08 02:21:19 - [MESSAGE][PASSED] - Send keys '1' on test object 'Object Repository/evermoss-mobile-app-object/kata-sandi' successfully.
+
+2020-09-08 02:21:19 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/masuk-button"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/masuk-button'
+
+2020-09-08 02:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/masuk-button'
+
+2020-09-08 02:21:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/katalog-menu"), 0): Element 'Object Repository/evermoss-mobile-app-object/katalog-menu' is exist
+
+2020-09-08 02:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:25 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/katalog-menu' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-mobile-app/open-kategori-success" time="7.343" classname="Test Cases/evermoss-mobile-app/open-kategori-success" status="PASSED">
+         <system-out><![CDATA[2020-09-08 02:21:25 - [TEST_CASE][PASSED] - Test Cases/evermoss-mobile-app/open-kategori-success: Test Cases/evermoss-mobile-app/open-kategori-success
+
+2020-09-08 02:21:25 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/kategori-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/kategori-menu'
+
+2020-09-08 02:21:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/kategori-menu'
+
+2020-09-08 02:21:28 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/fashion-anak-bayi-kat-icon"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/fashion-anak-bayi-kat-icon'
+
+2020-09-08 02:21:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/fashion-anak-bayi-kat-icon'
+
+2020-09-08 02:21:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/fashion-bayi-text"), 0): Element 'Object Repository/evermoss-mobile-app-object/fashion-bayi-text' is exist
+
+2020-09-08 02:21:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:32 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/fashion-bayi-text' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-mobile-app/open-toko-saya-success" time="12.713" classname="Test Cases/evermoss-mobile-app/open-toko-saya-success" status="PASSED">
+         <system-out><![CDATA[2020-09-08 02:21:32 - [TEST_CASE][PASSED] - Test Cases/evermoss-mobile-app/open-toko-saya-success: Test Cases/evermoss-mobile-app/open-toko-saya-success
+
+2020-09-08 02:21:33 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/toko-saya-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/toko-saya-menu'
+
+2020-09-08 02:21:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/toko-saya-menu'
+
+2020-09-08 02:21:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/toko-saya-name"), 0): Element 'Object Repository/evermoss-mobile-app-object/toko-saya-name' is exist
+
+2020-09-08 02:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:36 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/toko-saya-name' is exist
+
+2020-09-08 02:21:36 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/first-product"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/first-product'
+
+2020-09-08 02:21:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/first-product'
+
+2020-09-08 02:21:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/nama-product"), 0): Element 'Object Repository/evermoss-mobile-app-object/nama-product' is exist
+
+2020-09-08 02:21:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:40 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/nama-product' is exist
+
+2020-09-08 02:21:40 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/share-toko-saya"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/share-toko-saya'
+
+2020-09-08 02:21:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/share-toko-saya'
+
+2020-09-08 02:21:41 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/download-toko-saya"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/download-toko-saya'
+
+2020-09-08 02:21:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/download-toko-saya'
+
+2020-09-08 02:21:42 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/dot-toko-saya"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/dot-toko-saya'
+
+2020-09-08 02:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/dot-toko-saya'
+
+2020-09-08 02:21:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/back-toko-saya"), 0): Element 'Object Repository/evermoss-mobile-app-object/back-toko-saya' is exist
+
+2020-09-08 02:21:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:44 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/back-toko-saya' is exist
+
+2020-09-08 02:21:44 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/back-toko-saya"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/back-toko-saya'
+
+2020-09-08 02:21:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/back-toko-saya']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-mobile-app/open-transaksi-success" time="13.356" classname="Test Cases/evermoss-mobile-app/open-transaksi-success" status="PASSED">
+         <system-out><![CDATA[2020-09-08 02:21:45 - [TEST_CASE][PASSED] - Test Cases/evermoss-mobile-app/open-transaksi-success: Test Cases/evermoss-mobile-app/open-transaksi-success
+
+2020-09-08 02:21:45 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/transaksi-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/transaksi-menu'
+
+2020-09-08 02:21:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/transaksi-menu'
+
+2020-09-08 02:21:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/Transaksi-text"), 0): Element 'Object Repository/evermoss-mobile-app-object/Transaksi-text' is exist
+
+2020-09-08 02:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:48 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/Transaksi-text' is exist
+
+2020-09-08 02:21:48 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/point-saya-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/point-saya-menu'
+
+2020-09-08 02:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/point-saya-menu'
+
+2020-09-08 02:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/ok-alert-point-saya"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/ok-alert-point-saya'
+
+2020-09-08 02:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/ok-alert-point-saya'
+
+2020-09-08 02:21:50 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/riwayat-transaksi"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/riwayat-transaksi'
+
+2020-09-08 02:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/riwayat-transaksi'
+
+2020-09-08 02:21:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/data-tidak-tersedia-text"), 0): Element 'Object Repository/evermoss-mobile-app-object/data-tidak-tersedia-text' is exist
+
+2020-09-08 02:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:52 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/data-tidak-tersedia-text' is exist
+
+2020-09-08 02:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/icon-back"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/icon-back'
+
+2020-09-08 02:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/icon-back'
+
+2020-09-08 02:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/transaksi-via-evermos"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/transaksi-via-evermos'
+
+2020-09-08 02:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/transaksi-via-evermos'
+
+2020-09-08 02:21:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/pesanan-riwayat"), 0): Element 'Object Repository/evermoss-mobile-app-object/pesanan-riwayat' is exist
+
+2020-09-08 02:21:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:57 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/pesanan-riwayat' is exist
+
+2020-09-08 02:21:57 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/back-transaksi"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/back-transaksi'
+
+2020-09-08 02:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/back-transaksi']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-mobile-app/open-akun-success" time="9.525" classname="Test Cases/evermoss-mobile-app/open-akun-success" status="PASSED">
+         <system-out><![CDATA[2020-09-08 02:21:58 - [TEST_CASE][PASSED] - Test Cases/evermoss-mobile-app/open-akun-success: Test Cases/evermoss-mobile-app/open-akun-success
+
+2020-09-08 02:21:59 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/akun-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/akun-menu'
+
+2020-09-08 02:21:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:22:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/akun-menu'
+
+2020-09-08 02:22:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("evermoss-mobile-app-object/account-name"), 0): Element 'Object Repository/evermoss-mobile-app-object/account-name' is exist
+
+2020-09-08 02:22:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:22:02 - [MESSAGE][PASSED] - Element 'Object Repository/evermoss-mobile-app-object/account-name' is exist
+
+2020-09-08 02:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("evermoss-mobile-app-object/logout-menu"), 0): Tapped on element 'Object Repository/evermoss-mobile-app-object/logout-menu'
+
+2020-09-08 02:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-08 02:22:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/evermoss-mobile-app-object/logout-menu']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-08 02:20:58 - [TEST_SUITE][PASSED] - Login and keluar: Test Cases/evermoss-mobile-app/open-akun-success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

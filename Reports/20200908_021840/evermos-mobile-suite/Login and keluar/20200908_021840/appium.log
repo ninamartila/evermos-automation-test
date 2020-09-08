@@ -1,0 +1,767 @@
+[35m[Appium][39m Welcome to Appium v1.18.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 58872
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/kt/bnw3np9n2918b5f_3g_q6rhw0000gp/T//Katalon/Appium/Temp1599506333425
+[35m[Appium][39m   chromedriverPort: 58873
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":58873}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 58873
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58872
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/mbpretina-2014/Downloads/evermos.apk","noReset":true,"deviceName":"realme RMX2061 (Android 10)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"10","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"20754a6a","systemPort":58871},"capabilities":{"firstMatch":[{"appium:app":"/Users/mbpretina-2014/Downloads/evermos.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"realme RMX2061 (Android 10)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":58871,"appium:udid":"20754a6a"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.18.1 creating new AndroidUiautomator2Driver (v1.56.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[BaseDriver][39m Using local app '/Users/mbpretina-2014/Downloads/evermos.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/mbpretina-2014/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/mbpretina-2014/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/mbpretina-2014/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 20754a6a
+[35m[ADB][39m Using 'adb' from '/Users/mbpretina-2014/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'evermos.evermos.com.evermos'
+[35m[ADB][39m Main activity name: 'evermos.evermos.com.evermos.view.SplashActivity'
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/mbpretina-2014/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.12.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.12.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'evermos.evermos.com.evermos/evermos.evermos.com.evermos.view.SplashActivity and waiting for 'evermos.evermos.com.evermos/evermos.evermos.com.evermos.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session eb54e5b8-5f05-4ce0-88af-fd4cb64b7382 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10860 ms - 1231[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382 [39m[32m200[39m [90m12 ms - 1185[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382 [39m[32m200[39m [90m12 ms - 1185[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m26 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/txtLoginReseller"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m65 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/172ca055-4459-4a5a-8b49-fa930b261d3d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/172ca055-4459-4a5a-8b49-fa930b261d3d/location [39m[32m200[39m [90m47 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"172ca055-4459-4a5a-8b49-fa930b261d3d"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 172ca055-4459-4a5a-8b49-fa930b261d3d
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m197 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/input_phone"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m786 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4e0bfeb5-4fd8-4a7f-a605-6aa8eff213ac/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4e0bfeb5-4fd8-4a7f-a605-6aa8eff213ac/location [39m[32m200[39m [90m36 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4e0bfeb5-4fd8-4a7f-a605-6aa8eff213ac/value[39m
+[35m[HTTP][39m [90m{"id":"4e0bfeb5-4fd8-4a7f-a605-6aa8eff213ac","text":"622525","value":["6","2","2","5","2","5"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4e0bfeb5-4fd8-4a7f-a605-6aa8eff213ac/value [39m[32m200[39m [90m81 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m37 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/input_pass"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m402 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/da8ae92a-3b3f-4da5-a64e-25a6da4a978e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/da8ae92a-3b3f-4da5-a64e-25a6da4a978e/location [39m[32m200[39m [90m50 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/da8ae92a-3b3f-4da5-a64e-25a6da4a978e/value[39m
+[35m[HTTP][39m [90m{"id":"da8ae92a-3b3f-4da5-a64e-25a6da4a978e","text":"1","value":["1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/da8ae92a-3b3f-4da5-a64e-25a6da4a978e/value [39m[32m200[39m [90m886 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m34 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/btnLogin"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m620 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/d319ebe3-fd99-4ef8-ab61-584420ca1df7/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/d319ebe3-fd99-4ef8-ab61-584420ca1df7/location [39m[32m200[39m [90m33 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d319ebe3-fd99-4ef8-ab61-584420ca1df7"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: d319ebe3-fd99-4ef8-ab61-584420ca1df7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m222 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m31 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Katalog"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m445 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Katalog"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1044 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Katalog"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m2962 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/7478326f-3b73-44e4-a9fd-259c8343c919/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/7478326f-3b73-44e4-a9fd-259c8343c919/location [39m[32m200[39m [90m367 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m31 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Kategori"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1060 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/cdc17b66-37bd-4950-838e-e5bee0b39066/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/cdc17b66-37bd-4950-838e-e5bee0b39066/location [39m[32m200[39m [90m510 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"cdc17b66-37bd-4950-838e-e5bee0b39066"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: cdc17b66-37bd-4950-838e-e5bee0b39066
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m1147 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m32 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/androidx.viewpager.widget.ViewPager[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1245 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4def7dc3-6619-4058-9ed5-62c628d62386/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/4def7dc3-6619-4058-9ed5-62c628d62386/location [39m[32m200[39m [90m449 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"4def7dc3-6619-4058-9ed5-62c628d62386"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 4def7dc3-6619-4058-9ed5-62c628d62386
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m254 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Fashion Bayi\").resourceId(\"evermos.evermos.com.evermos:id/txtCategory\").packageName(\"evermos.evermos.com.evermos\").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1904 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/5c8d9ecf-9cb9-48b3-95d0-47b60f0ad04b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/5c8d9ecf-9cb9-48b3-95d0-47b60f0ad04b/location [39m[32m200[39m [90m80 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Toko Saya"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m560 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/3f48d848-01bf-476d-adea-33c80da64f0c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/3f48d848-01bf-476d-adea-33c80da64f0c/location [39m[32m200[39m [90m33 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"3f48d848-01bf-476d-adea-33c80da64f0c"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 3f48d848-01bf-476d-adea-33c80da64f0c
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m809 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/text_store"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m137 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/b7574324-6dcd-4a07-be4e-a310b1394e5a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/b7574324-6dcd-4a07-be4e-a310b1394e5a/location [39m[32m200[39m [90m648 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m31 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/androidx.viewpager.widget.ViewPager[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/androidx.cardview.widget.CardView[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1156 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/47b3e776-18a9-4723-baa6-e2df2500bdcb/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/47b3e776-18a9-4723-baa6-e2df2500bdcb/location [39m[32m200[39m [90m33 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"47b3e776-18a9-4723-baa6-e2df2500bdcb"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 47b3e776-18a9-4723-baa6-e2df2500bdcb
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m2519 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m41 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/txtNamaProduct"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m127 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/041337b1-559c-44b7-a661-ce583f1b7bb5/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/041337b1-559c-44b7-a661-ce583f1b7bb5/location [39m[32m200[39m [90m517 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/share_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m127 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/246365d8-949f-46cf-b912-a64c4f6cced1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/246365d8-949f-46cf-b912-a64c4f6cced1/location [39m[32m200[39m [90m38 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"246365d8-949f-46cf-b912-a64c4f6cced1"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 246365d8-949f-46cf-b912-a64c4f6cced1
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m949 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m157 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/2b9f8917-2cd7-422c-9ac8-dd579bf78fef/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/2b9f8917-2cd7-422c-9ac8-dd579bf78fef/location [39m[32m200[39m [90m40 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"2b9f8917-2cd7-422c-9ac8-dd579bf78fef"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 2b9f8917-2cd7-422c-9ac8-dd579bf78fef
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m195 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m33 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/indicator"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m748 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e242bb3f-404b-4e77-86c9-f52f069a4629/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e242bb3f-404b-4e77-86c9-f52f069a4629/location [39m[32m200[39m [90m43 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"e242bb3f-404b-4e77-86c9-f52f069a4629"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: e242bb3f-404b-4e77-86c9-f52f069a4629
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m1271 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/back_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m91 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/717cd955-8e53-45dd-add0-63fab4151539/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/717cd955-8e53-45dd-add0-63fab4151539/location [39m[32m200[39m [90m889 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m38 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/back_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m154 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/3e40d768-089c-4db4-bad7-8c0ca25f8546/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/3e40d768-089c-4db4-bad7-8c0ca25f8546/location [39m[32m200[39m [90m38 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"3e40d768-089c-4db4-bad7-8c0ca25f8546"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 3e40d768-089c-4db4-bad7-8c0ca25f8546
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m1391 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m56 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Toko Saya"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1561 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e91dd106-1263-4951-b0dc-5d54ed1958be/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e91dd106-1263-4951-b0dc-5d54ed1958be/location [39m[32m200[39m [90m52 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"e91dd106-1263-4951-b0dc-5d54ed1958be"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: e91dd106-1263-4951-b0dc-5d54ed1958be
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m231 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m26 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/text_store"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m583 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/2bdf7754-d7b9-4235-a7eb-f70a224e613e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/2bdf7754-d7b9-4235-a7eb-f70a224e613e/location [39m[32m200[39m [90m56 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/androidx.viewpager.widget.ViewPager[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/androidx.cardview.widget.CardView[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m649 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e1cd8dbb-a11c-4bd0-8729-2858fb5e7ddd/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/e1cd8dbb-a11c-4bd0-8729-2858fb5e7ddd/location [39m[32m200[39m [90m120 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"e1cd8dbb-a11c-4bd0-8729-2858fb5e7ddd"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: e1cd8dbb-a11c-4bd0-8729-2858fb5e7ddd
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m2303 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m35 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/txtNamaProduct"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m128 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/7ca7da58-0574-4f8a-b001-29b29341ea9a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/7ca7da58-0574-4f8a-b001-29b29341ea9a/location [39m[32m200[39m [90m43 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m35 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/share_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m115 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/ada2b7a1-caa7-4280-bf65-64a5a796acc4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (eb54e5b8)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a01255f6-ed3a-466b-8c43-3ec3f477140e with eb54e5b8-5f05-4ce0-88af-fd4cb64b7382
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/element/ada2b7a1-caa7-4280-bf65-64a5a796acc4/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"ada2b7a1-caa7-4280-bf65-64a5a796acc4"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: ada2b7a1-caa7-4280-bf65-64a5a796acc4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/touch/perform [39m[32m200[39m [90m184 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m564 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m576 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m556 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m624 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m575 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m573 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m566 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m569 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m601 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1021 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m594 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m562 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m570 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m570 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m567 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m554 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m530 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m558 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m568 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m577 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m1164 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m573 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m726 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m584 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m562 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m570 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m945 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m582 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"evermos.evermos.com.evermos:id/download_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/eb54e5b8-5f05-4ce0-88af-fd4cb64b7382/elements [39m[32m200[39m [90m574 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'eb54e5b8-5f05-4ce0-88af-fd4cb64b7382' from our master session list
+[35m[WD Proxy][39m socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

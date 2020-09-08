@@ -29,6 +29,36 @@ public class GlobalVariable {
      */
     public static Object KeywordSearch
      
+    /**
+     * <p></p>
+     */
+    public static Object EvermosMobilePhone
+     
+    /**
+     * <p></p>
+     */
+    public static Object EvermosMobilePassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object EvermosApkLoc
+     
+    /**
+     * <p></p>
+     */
+    public static Object EvermosAppId
+     
+    /**
+     * <p></p>
+     */
+    public static Object BerikhtiarUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object KeywordSearchToko
+     
 
     static {
         try {
@@ -40,6 +70,12 @@ public class GlobalVariable {
             EvermosPhoneNumber = selectedVariables['EvermosPhoneNumber']
             EvermosPassword = selectedVariables['EvermosPassword']
             KeywordSearch = selectedVariables['KeywordSearch']
+            EvermosMobilePhone = selectedVariables['EvermosMobilePhone']
+            EvermosMobilePassword = selectedVariables['EvermosMobilePassword']
+            EvermosApkLoc = selectedVariables['EvermosApkLoc']
+            EvermosAppId = selectedVariables['EvermosAppId']
+            BerikhtiarUrl = selectedVariables['BerikhtiarUrl']
+            KeywordSearchToko = selectedVariables['KeywordSearchToko']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

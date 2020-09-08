@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login and transaksi" time="47.509" tests="4" failures="0" errors="0">
+   <testsuite name="login and transaksi" tests="4" failures="0" errors="0" time="47.509" timestamp="2020-09-07 23:11:52" hostname="mbpretina-2014 - apples-mbp" id="Test Suites/evermos-web-suite/login and transaksi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mbpretina-2014/Documents/Evermoss-Test/evermos-automation-test/Reports/20200907_231140/evermos-web-suite/login and transaksi/20200907_231140"/>
+         <property name="logFiles" value="/Users/mbpretina-2014/Documents/Evermoss-Test/evermos-automation-test/Reports/20200907_231140/evermos-web-suite/login and transaksi/20200907_231140/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mbpretina-2014 - apples-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 77.0.3865.90"/>
+         <property name="hostAddress" value="192.168.43.161"/>
+         <property name="sessionId" value="2e4596f7bcbbbedb1158d88a2c215193"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/evermoss-web/main case/open-browser" time="17.207" classname="Test Cases/evermoss-web/main case/open-browser" status="PASSED">
+         <system-out><![CDATA[2020-09-07 23:11:53 - [TEST_CASE][PASSED] - Test Cases/evermoss-web/main case/open-browser: Test Cases/evermoss-web/main case/open-browser
+
+2020-09-07 23:11:53 - [TEST_STEP][PASSED] - openBrowser(EvermosUrl): Browser is opened with url: 'https://evermos.com/'
+
+2020-09-07 23:11:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-07 23:11:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-07 23:12:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://evermos.com/'
+
+2020-09-07 23:12:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-07 23:12:10 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-web/login-evermos-success-case" time="22.816" classname="Test Cases/evermoss-web/login-evermos-success-case" status="PASSED">
+         <system-out><![CDATA[2020-09-07 23:12:10 - [TEST_CASE][PASSED] - Test Cases/evermoss-web/login-evermos-success-case: Test Cases/evermoss-web/login-evermos-success-case
+
+2020-09-07 23:12:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("evermoss-web-object/Home page/landing-page-text"), 0): Object 'Object Repository/evermoss-web-object/Home page/landing-page-text' is present
+
+2020-09-07 23:12:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 23:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/evermoss-web-object/Home page/landing-page-text' is present
+
+2020-09-07 23:12:13 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Home page/button-masuk")): Object: 'Object Repository/evermoss-web-object/Home page/button-masuk' is clicked on
+
+2020-09-07 23:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Home page/button-masuk' is clicked on
+
+2020-09-07 23:12:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("evermoss-web-object/Login Page/ayo-masuk-text"), 0): Object 'Object Repository/evermoss-web-object/Login Page/ayo-masuk-text' is present
+
+2020-09-07 23:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 23:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/evermoss-web-object/Login Page/ayo-masuk-text' is present
+
+2020-09-07 23:12:15 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Login Page/label-no-tlp")): Object: 'Object Repository/evermoss-web-object/Login Page/label-no-tlp' is clicked on
+
+2020-09-07 23:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Login Page/label-no-tlp' is clicked on
+
+2020-09-07 23:12:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("evermoss-web-object/Login Page/number-telepon"), EvermosPhoneNumber): Keys '12233344445555' sent to object: 'Object Repository/evermoss-web-object/Login Page/number-telepon'
+
+2020-09-07 23:12:17 - [MESSAGE][PASSED] - Keys '12233344445555' sent to object: 'Object Repository/evermoss-web-object/Login Page/number-telepon'
+
+2020-09-07 23:12:17 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Login Page/label-kata-sandi")): Object: 'Object Repository/evermoss-web-object/Login Page/label-kata-sandi' is clicked on
+
+2020-09-07 23:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Login Page/label-kata-sandi' is clicked on
+
+2020-09-07 23:12:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("evermoss-web-object/Login Page/kata-sandi"), EvermosPassword): Keys 'password' sent to object: 'Object Repository/evermoss-web-object/Login Page/kata-sandi'
+
+2020-09-07 23:12:18 - [MESSAGE][PASSED] - Keys 'password' sent to object: 'Object Repository/evermoss-web-object/Login Page/kata-sandi'
+
+2020-09-07 23:12:18 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Login Page/button-masuk")): Object: 'Object Repository/evermoss-web-object/Login Page/button-masuk' is clicked on
+
+2020-09-07 23:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Login Page/button-masuk' is clicked on
+
+2020-09-07 23:12:18 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Evermos - Katalog/offering Mau button")): Object: 'Object Repository/evermoss-web-object/Evermos - Katalog/offering Mau button' is clicked on
+
+2020-09-07 23:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Evermos - Katalog/offering Mau button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-web/open-transaksi-success" time="6.157" classname="Test Cases/evermoss-web/open-transaksi-success" status="PASSED">
+         <system-out><![CDATA[2020-09-07 23:12:33 - [TEST_CASE][PASSED] - Test Cases/evermoss-web/open-transaksi-success: Test Cases/evermoss-web/open-transaksi-success
+
+2020-09-07 23:12:33 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Evermos - Katalog/Transaksi Menu")): Object: 'Object Repository/evermoss-web-object/Evermos - Katalog/Transaksi Menu' is clicked on
+
+2020-09-07 23:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Evermos - Katalog/Transaksi Menu' is clicked on
+
+2020-09-07 23:12:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("evermoss-web-object/Evermos - Transaksi/h1_Transaksi"), 0): Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/h1_Transaksi' is present
+
+2020-09-07 23:12:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 23:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/h1_Transaksi' is present
+
+2020-09-07 23:12:35 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Evermos - Transaksi/div_Lihat Rincian Poin")): Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/div_Lihat Rincian Poin' is clicked on
+
+2020-09-07 23:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/div_Lihat Rincian Poin' is clicked on
+
+2020-09-07 23:12:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("evermoss-web-object/Evermos - Transaksi/div_Informasi Poin"), 0): Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/div_Informasi Poin' is present
+
+2020-09-07 23:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 23:12:36 - [MESSAGE][PASSED] - Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/div_Informasi Poin' is present
+
+2020-09-07 23:12:36 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Evermos - Transaksi/button_Tutup")): Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/button_Tutup' is clicked on
+
+2020-09-07 23:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/button_Tutup' is clicked on
+
+2020-09-07 23:12:37 - [TEST_STEP][PASSED] - click(findTestObject("evermoss-web-object/Evermos - Transaksi/span_Riwayat Transaksi")): Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/span_Riwayat Transaksi' is clicked on
+
+2020-09-07 23:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/evermoss-web-object/Evermos - Transaksi/span_Riwayat Transaksi' is clicked on
+
+2020-09-07 23:12:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("evermoss-web-object/Evermos - Transaksi/p_Belum ada kredit di bulan ini"), 0): Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/p_Belum ada kredit di bulan ini' is present
+
+2020-09-07 23:12:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 23:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/evermoss-web-object/Evermos - Transaksi/p_Belum ada kredit di bulan ini' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/evermoss-web/main case/close-browser" time="0.521" classname="Test Cases/evermoss-web/main case/close-browser" status="PASSED">
+         <system-out><![CDATA[2020-09-07 23:12:39 - [TEST_CASE][PASSED] - Test Cases/evermoss-web/main case/close-browser: Test Cases/evermoss-web/main case/close-browser
+
+2020-09-07 23:12:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-07 23:12:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-07 23:11:52 - [TEST_SUITE][PASSED] - login and transaksi: Test Cases/evermoss-web/main case/close-browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

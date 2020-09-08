@@ -24,4 +24,34 @@
       <initValue>'nana'</initValue>
       <name>KeywordSearch</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'622525'</initValue>
+      <name>EvermosMobilePhone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>EvermosMobilePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/mbpretina-2014/Downloads/evermos.apk'</initValue>
+      <name>EvermosApkLoc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'evermos.evermos.com.evermos'</initValue>
+      <name>EvermosAppId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://berikhtiar.com/qa.testing.1'</initValue>
+      <name>BerikhtiarUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mad'</initValue>
+      <name>KeywordSearchToko</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
